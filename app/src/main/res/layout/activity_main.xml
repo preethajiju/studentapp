@@ -62,6 +62,14 @@
         android:text="LOGIN"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:textColor="#F7FBFB"
+        android:text="REGISTER"
+        android:layout_margin="10dp"
+        android:background="@drawable/roundbutton"
+        android:onClick="buttonclickevent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
 
 

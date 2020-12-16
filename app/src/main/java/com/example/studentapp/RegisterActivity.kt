@@ -1,5 +1,6 @@
 package com.example.studentapp
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -29,6 +30,7 @@ class RegisterActivity : AppCompatActivity() {
     }
 
     fun backevent(view: View) {
-        
+     intent= Intent(this,MainActivity::class.java)
+        startActivity(intent)
     }
 }

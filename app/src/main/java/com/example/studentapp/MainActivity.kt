@@ -1,5 +1,6 @@
 package com.example.studentapp
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -22,5 +23,10 @@ class MainActivity : AppCompatActivity() {
 
 
 
+    }
+
+    fun buttonclickevent(view: View) {
+        intent= Intent(this,RegisterActivity::class.java)
+        startActivity(intent)
     }
 }
