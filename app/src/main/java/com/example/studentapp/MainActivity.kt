@@ -17,9 +17,10 @@ class MainActivity : AppCompatActivity() {
       var getUname=findViewById<EditText>(R.id.uname)
         var getPass=findViewById<EditText>(R.id.pass)
         var getNum=findViewById<EditText>(R.id.mob)
-        Toast.makeText(this,getUname.text.toString(),Toast.LENGTH_LONG).show()
-        Toast.makeText(this,getPass.text.toString(),Toast.LENGTH_LONG).show()
-        Toast.makeText(this,getNum.text.toString(),Toast.LENGTH_LONG).show()
+        Toast.makeText(this,getUname.text.toString()+" "+getPass.text.toString()+" "+
+                getNum.text.toString(),Toast.LENGTH_LONG).show()
+//        Toast.makeText(this,getPass.text.toString(),Toast.LENGTH_LONG).show()
+//        Toast.makeText(this,getNum.text.toString(),Toast.LENGTH_LONG).show()
 
 
 

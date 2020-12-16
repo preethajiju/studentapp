@@ -20,12 +20,13 @@ class RegisterActivity : AppCompatActivity() {
         var getUser=findViewById<EditText>(R.id.user)
         var getPass=findViewById<EditText>(R.id.pass)
         var getCpass=findViewById<EditText>(R.id.cpass)
-        Toast.makeText(this,getName.text.toString(),Toast.LENGTH_LONG).show()
-        Toast.makeText(this,getPhn.text.toString(),Toast.LENGTH_LONG).show()
-        Toast.makeText(this,getMail.text.toString(),Toast.LENGTH_LONG).show()
-        Toast.makeText(this,getUser.text.toString(),Toast.LENGTH_LONG).show()
-        Toast.makeText(this,getPass.text.toString(),Toast.LENGTH_LONG).show()
-        Toast.makeText(this,getCpass.text.toString(),Toast.LENGTH_LONG).show()
+        Toast.makeText(this,getName.text.toString()+" "+getPhn.text.toString()+" "+getMail.text.toString()+" "+
+                getUser.text.toString()+" "+getPass.text.toString()+" "+getCpass.text.toString(),Toast.LENGTH_LONG).show()
+//        Toast.makeText(this,getPhn.text.toString(),Toast.LENGTH_LONG).show()
+//        Toast.makeText(this,getMail.text.toString(),Toast.LENGTH_LONG).show()
+//        Toast.makeText(this,getUser.text.toString(),Toast.LENGTH_LONG).show()
+//        Toast.makeText(this,getPass.text.toString(),Toast.LENGTH_LONG).show()
+//        Toast.makeText(this,getCpass.text.toString(),Toast.LENGTH_LONG).show()
 
     }
 
